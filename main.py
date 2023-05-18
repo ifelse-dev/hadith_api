@@ -29,5 +29,5 @@ def get_hadith_by_id(id):
                        "hadith_fr": choiseHadith_fr})  
     return  Response(res, mimetype='json/application')
 
-app.run(debug=True)
 print("Start api...")
+app.run(debug=False)
